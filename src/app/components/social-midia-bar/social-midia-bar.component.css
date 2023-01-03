@@ -1,0 +1,15 @@
+.container__social-midia-bar{
+    color: antiquewhite;
+}
+
+.container__social-midia-bar >ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.container__social-midia-bar >ul >li{
+    margin-right: 1rem;
+    list-style: none;
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: small;}

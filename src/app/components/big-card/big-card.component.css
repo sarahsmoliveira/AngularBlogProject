@@ -1,0 +1,30 @@
+.container__big-card{
+    border: solid antiquewhite 1px;
+    border-radius: 5px;
+    width: 50rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-right: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.big-card__title >h1 >a{
+    font-size: 35px;
+    margin-top: .9rem;
+    margin-left: 15px;
+    color: antiquewhite;
+}
+
+.big-card__descript >p {
+    color:white; 
+    margin-top: .9rem;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    font-size: 23px;
+}
+
+.big-card__photo >img{
+    width: 796px;
+}

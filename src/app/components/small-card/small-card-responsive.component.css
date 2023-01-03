@@ -1,0 +1,42 @@
+@media screen and (max-width:810px){
+
+    .small-card__title{
+        margin-left: .1rem;
+        font-size: 25px;
+    }
+
+    .small-card__photo >img{
+        height: 140px;
+        width: 200px;
+    }
+
+    .small-card__separator{
+        margin-top: .2rem;
+        margin-bottom: .2rem;
+    }
+}
+
+@media screen and (max-width:500px){
+    .small-card-content{
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+        padding: 0;
+    }
+
+    .small-card__title >h1{
+        margin-left: .1rem;
+        font-size: 10px;
+        margin-top: 12px;
+    }
+
+    .small-card__photo >img{
+        height: 70px;
+        width: 100px;
+    }
+
+    .small-card__separator{
+        margin-top: .1rem;
+        margin-bottom: .1rem;
+    }
+}

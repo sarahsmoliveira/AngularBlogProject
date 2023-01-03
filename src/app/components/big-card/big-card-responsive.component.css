@@ -1,0 +1,40 @@
+@media screen and (max-width:810px){
+.container__big-card{
+    width: 28rem;
+    margin-right: .6rem;
+}
+.big-card__photo >img{
+    width: 440px;
+}
+
+.big-card__title >h1 >a{
+    font-size: 25px;
+    margin-top: .9rem;
+}
+
+.big-card__descript >p {
+    margin-top: .9rem;
+}
+
+}
+
+@media screen and (max-width:400px){
+    .container__big-card{
+        width: 22rem;
+        margin-left: 0.6rem;
+    }
+
+    .big-card__photo >img{
+        width: 349px;
+    }
+
+    .big-card__title >h1 >a{
+        font-size: 15px;
+        margin-top: 0rem;
+    }
+    
+    .big-card__descript >p {
+        font-size: 9px;
+        margin-top: 0rem;
+    }
+}    
